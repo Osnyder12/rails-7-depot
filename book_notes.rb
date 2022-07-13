@@ -67,3 +67,13 @@ puts "===================="
 
 # gives a unless a is nil or false
 
+
+puts "===================="
+puts "product_path vs. product_url"
+puts "===================="
+
+# product_url gives the full request with domain name and protocal
+# user for redirect_to
+
+# product_path only generates '/products/1'
+# good for links and pointing forms like link_to
